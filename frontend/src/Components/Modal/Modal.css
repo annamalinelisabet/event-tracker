@@ -1,0 +1,52 @@
+.Modal {
+    position: fixed;
+    inset: 0;
+    background-color: #0000007d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal .modal-card {
+    background-color: var(--secondary-color);
+    border: 5px solid var(--primary-color);
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.Modal .modal-text {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.Modal .btn-group {
+    margin: 1rem auto;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Modal .btn {
+    width: 60px;
+    color: var(--secondary-color);
+}
+
+.Modal .btn:hover {
+    opacity: 90%;
+}
+
+.Modal .btn:active {
+    opacity: 100%;
+}
+
+.Modal .yes {
+    background-color: var(--warning-color);    
+}
+
+.Modal .no {
+    background-color: var(--primary-color);
+}
+

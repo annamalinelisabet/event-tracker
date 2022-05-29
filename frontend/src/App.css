@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #144e47;
+  --secondary-color: #D9EAE8;
+  --light-color: #589088;
+  --btn-color: #A1A28A;
+  --warning-color: #67252E;
+  --header-font: 'Ubuntu', sans-serif;
+}
+
+html, body {
+  background-color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  padding: 1em;
+  background-color: transparent;
+}
+
+.fa-bars, .fa-arrow-left {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.loading, .error {
+  text-align: center;
+  color: #589088;
+}
+
+.form-error {
+  color: var(--warning-color);
+  font-weight: bold;
+  margin-left: 1.6rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.form-error.login {
+  background-color: black;
+  display: inline;
+  padding: .2rem;
+}

@@ -1,0 +1,20 @@
+.Home {
+    background-image: url('../../../public/chess.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Home .top-div {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,94 @@
+.Login .login-form {
+    margin: 24rem auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.Login .form-control {
+    width: 100%;
+}
+
+.Login .input {
+    width: 100%;
+    margin-block: .5rem;
+    padding: 1em 2em;
+    border: 3px solid var(--light-color);
+    background-color: var(--light-color);
+    font-size: 1rem;
+}
+
+.Login .input::placeholder {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.Login .input:focus {
+    outline: 3px solid var(--secondary-color);
+}
+
+.Login .btn-login {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+    margin-block: .5rem;
+    font-size: 1rem;
+}
+
+.Login .btn-login:hover,
+.Login .btn-register:hover {
+    opacity: 90%;
+}
+
+.Login .btn-login:active {
+    opacity: 100%;
+    background-color: #0d403a;
+}
+
+.Login .register-text {
+    text-decoration: underline;
+    color: var(--secondary-color);
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+.Login .register-text:active {
+    opacity: 80%
+}
+
+/* --- REGISTER VIEW --- */
+
+.Login .register-form {
+    margin: 7rem auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+.Login .input-text {
+    color: var(--secondary-color);
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0 0 1rem;
+}
+
+.Login .btn-register {
+    background-color: var(--btn-color);
+    color: white;
+    width: 100%;
+    margin-block: 1rem;
+    font-size: 1rem;
+}
+
+.Login .btn-register:active {
+    opacity: 100%;
+    background-color: #8d8e73;
+}
+
+.Login .form-title {
+    font-family: var(--header-font);
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+}

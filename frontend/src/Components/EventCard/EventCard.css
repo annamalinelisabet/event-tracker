@@ -1,0 +1,43 @@
+.EventCard {
+    display: flex;
+    justify-content: center;
+}
+
+.EventCard .card {
+    background-color: var(--light-color);
+    width: 90%;
+    max-width: 680px;
+    margin-bottom: 1rem;
+    padding: 1.2rem 3rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.579);
+}
+
+.EventCard .link {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    transition: .3s ease-in-out;
+}
+
+.EventCard .link:hover {
+    transform: rotateZ(30deg);
+}
+
+.EventCard .card-title {
+    font-family: var(--header-font);
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+    margin-block: .3rem;
+    text-transform: uppercase;
+}
+
+.EventCard .card-time {
+    color: var(--primary-color);
+    font-weight: bold;
+    display: block;
+    margin-block: .3rem;
+}
+

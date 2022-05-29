@@ -1,0 +1,16 @@
+.NotFound {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.NotFound .not-header {
+    color: var(--secondary-color);
+}
+
+.NotFound button {
+    text-decoration: underline;
+}
+
